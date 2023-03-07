@@ -4,72 +4,84 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Stuff You Should Know</title>
 </head>
 <body>
   <!-- Include the tag for introductory content -->
+  <header role="banner">
 
     <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  
+   <a href="../index.html">
+      <img src="../images/sysk-logo.webp" alt="Stuff You Should Know logo">
+    </a>
+
     <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="episodes.html">Episodes</a></li>
+      </ul>
+    </nav> 
 
 
+  </header>
 
   <!-- Add an element that represents the main content of the page --> 
-
+  <body>
 
     <!-- Include a tag that groups the information about this particular podcast -->
-
+    <section>
+      
       <!-- Display image relevant to topic -->
-
+      <img src="../images/fake-towns.jpeg" alt="The History of Fake Towns">
+        
       <!-- Main heading for the page -->
-      The History of Fake Towns
+      <h2>The History of Fake Towns</h2>
 
-      October 18, 2022
-      51 min
+      <p>October 18, 2022 51 min</p>
 
-      There have been a lot of fake towns built throughout history for a lot of different reasons. Tune in to learn about some of these bogus burbs.
+      <p>There have been a lot of fake towns built throughout history for a lot of different reasons. Tune in to learn about some of these bogus burbs.</p>
 
-      <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/">Click here to play episode on iHeart -->
-      Click here to play episode on iHeart
+      <!-- Link to external url:  -->
+      <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/">Click here to play episode on iHeart"</a>
 
+        <!-- Include a tag that groups the other two podcasts -->  
+      
+        <!-- Section heading -->      
+        <h2>You might also like...</h2>
 
-    <!-- Include a tag that groups the other two podcasts -->  
-
-      <!-- Section heading -->      
-      You might also like...
-
-      <!-- Include a tag for independent, self-contained content content -->
-        
+        <!-- Include a tag for independent, self-contained content content -->
+      <article>    
         <!-- Section sub-heading -->
-        Interesting Origins of Everday phrases
+        <h4>Interesting Origins of Everyday Phrases</h4>
 
         <!-- Display image relevant to topic -->
+        <img src="../images/everyday-phrases.jpeg" alt="Interesting Origins of Everyday Phrases">
 
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-        
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <P>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</P>
+          
+        <!-- Link to existing html page within episodes directory; relevant to topic --> <a href="fake-towns.html">Learn more</a>
 
+      </article>
 
-      <!-- Include a tag for independent, self-contained content content -->
-        
+        <!-- Include a tag for independent, self-contained content content -->
+      <article>  
         <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
+         <h4>Doppelgängers: Hey you, you're me!</h4>
 
         <!-- Display image relevant to topic -->
-        
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+        <img src="../images/doppelgangers.jpeg" alt="Doppelgangers: Hey you, you're me!">
 
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-     
+        <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
+        <!-- Link to existing html page within episodes directory; relevant to topic --> <a href="doppelgangers.html">Learn more</a>
+
+      </article>
+    </section>
+  </body>
         
   <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
+  <p><small>&copy; SYSK 2023</p></small>
   
     
 </body>
